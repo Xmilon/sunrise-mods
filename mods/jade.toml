@@ -1,0 +1,36 @@
+id = "jade"
+kind = "native-mod"
+name = "Jade"
+summary = "What am I looking at: a tooltip naming the block or mob under the crosshair, with its harvest tool, health, progress and contents."
+description = """
+An unofficial port of **Jade** (by Snownee, the successor of HWYLA/WAILA) to Sunrise's native mod API. It is adapted from Jade's own code, so it is shared under Jade's licence, CC BY-NC-SA 4.0: credit to Snownee's Jade, no commercial use, share alike. No Jade art is included. It is not made or endorsed by Snownee or the Jade team.
+
+## What it shows
+
+- **The block or mob under the crosshair** at the top of the screen, with its icon, name and mod.
+- **Harvest tool:** the tool icons and a check or a cross for the item in your hand.
+- **Breaking progress** while you mine.
+- **Mobs:** health as hearts or numbers, armour, effects, owners, horse and llama stats, villager profession and level.
+- **Blocks:** crop growth, furnace input, fuel and progress, container contents, note block notes, jukebox records, locked hoppers and more.
+
+The server half answers what only the server knows (container contents, furnace progress, mob health and effects), as Jade's server plugin does.
+
+## Options
+
+Jade's options under Jade's names, read live from the config file: what to show, harvest marks on their own line, themes, the details key and Lite mode.
+"""
+authors = ["Snownee (Jade, the original)", "Xmilon (Sunrise port)"]
+owners = ["Xmilon"]
+license = "CC-BY-NC-SA-4.0"
+source = "https://github.com/Xmilon/jade-sunrise"
+icon = "icons/jade.png"
+categories = ["utility"]
+tags = ["hud", "tooltip", "information"]
+
+[[versions]]
+version = "0.1.0"
+published = "2026-11-19"
+game = "26.3"
+file = "jade-0.1.0.smod"
+sha256 = "3590acd7b889123dc760eb779b08580cda55c57e71919d4f37a85473ffe2abd5"
+changelog = "First release."
