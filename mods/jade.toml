@@ -24,6 +24,7 @@ owners = ["Xmilon"]
 license = "CC-BY-NC-SA-4.0"
 source = "https://github.com/Xmilon/jade-sunrise"
 icon = "icons/jade.png"
+screenshots = ["screenshots/jade/1-chest.jpg", "screenshots/jade/2-furnace.jpg", "screenshots/jade/3-locked-hopper.jpg", "screenshots/jade/4-harvest-check.jpg", "screenshots/jade/5-golem.jpg", "screenshots/jade/6-horse.jpg", "screenshots/jade/7-villager.jpg", "screenshots/jade/8-options.jpg"]
 categories = ["utility"]
 tags = ["hud", "tooltip", "information"]
 
